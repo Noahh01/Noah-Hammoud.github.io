@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Noah Hammoud</title>
+    <link rel="icon" href="images/browserIcon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3 mb-5 font-weight-bold navbar-style fixed-top">
+      <a class="navbar-brand ml-lg-4 logo pb-2" href="#top"><span>Noah</span> Hammoud</a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+        >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active" scroll-to="about-section">
+            <a class="nav-link" href="#about-section">About</a>
+          </li>
+          <li class="nav-item" scroll-to="work-section">
+            <a class="nav-link" href="#work-section">Work</a>
+          </li>
+          <li class="nav-item" scroll-to="projects-section">
+            <a class="nav-link" href="#projects-section">Projects</a>
+          </li>
+          <li class="nav-item" scroll-to="resume-section">
+            <a class="nav-link" href="#resume-section">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- About Section -->
+    <div id="about-section" class="container-fluid text-light d-flex align-items-center justify-content-center section">
+      <div class="row text-center d-flex align-items-center justify-content-center">
+        <div class="col-lg-6 col-md-10 col-sm-12 mt-md-0 pt-md-0 mt-5 pt-5">
+          <img class="section_img img-fluid" src="images/about_image.jpg" alt="about-img">
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-12 mt-lg-0 mt-5 about_text">
+          <h1>Hello, I'm <span>Noah</span></h1>
+          <h5>I am a 4th year software engingeering student at Carleton University and have experience with:</h5>
+          <div class="about_text_icons d-flex justify-content-center flex-wrap">
+            <img class="img-fluid" src="images/Python.png" alt="Python logo">
+            <img class="img-fluid" src="images/Java.png" alt="Java logo">
+            <img class="img-fluid" src="images/JavaScript.png" alt="JS logo">
+            <img class="img-fluid" src="images/Typescript.png" alt="TS logo">
+            <img class="img-fluid" src="images/C.png" alt="C logo">
+            <img class="img-fluid" src="images/Php.png" alt="Php logo">
+            <img class="img-fluid" src="images/Html.png" alt="Html logo">
+            <img class="img-fluid" src="images/Css.png" alt="Css logo">
+            <img class="img-fluid" src="images/aws.png" alt="Aws logo">
+            <img class="img-fluid" src="images/nodeJs.png" alt="Node.js logo">
+            <img class="img-fluid" src="images/Angular.png" alt="Angular logo">
+            <img class="img-fluid" src="images/React.png" alt="React logo">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Work Section -->
+    <div id="work-section" class="container-fluid text-light d-flex align-items-center justify-content-center section">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-10 col-sm-12">
+          <h1 class="text-center my-5 pb-5">Work Experience:</h1>
+          <ul class="timeline">
+            <li>
+              <a href="https://www.jsitelecom.com/"><span>JSI Telecom - Software Developer</span></a>
+              <a class="date"><span>May 2023 - Dec 2023</span></a>
+              <p>Worked on different Agile teams responsible for APIs, web applications, and reporting tools. 
+                Assisted in developing the latest features for various web applications. Developed different Angular components, services, and modules.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.infrastructure.gc.ca/index-eng.html"><span>Infrastructure Canada - Application Developer</span></a>
+              <a class="date"><span>May 2022 - Aug 2022</span></a>
+              <p>Implemented and expanded on features for our dynamic form framework. Created SQL queries and scripts
+                that automated data clean-up and retrieval. Worked on operational work involving server management and deployments.
+              </p>
+            </li>
+            <li>
+              <a href="https://ised-isde.canada.ca/site/communications-research-centre-canada/en"><span>CRC Canada - Cloud DevOps Engineer</span></a>
+              <a class="date"><span>May 2021 - Apr 2022</span></a>
+              <p>Worked on various tasks involving automation, disaster recovery, and cloud infrastructure as code. Developed Python scripts using 
+                the Boto3 SDK to automate various tasks such as creating and manipulating AWS resources.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Project Section -->
+    <div id="projects-section" class="container-fluid d-flex flex-column align-items-center justify-content-center section">
+      <div class="row text-light my-5 pb-5">
+        <h1>Latest Projects:</h1>
+      </div>
+      <div class="row mx-4">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="./images/project1.png" class="card-img-top" alt="4th-Year-Project-Management-App-img">
+            <div class="card-body">
+              <h5 class="card-title">4th Year Project Management App</h5>
+              <p class="card-text">
+                A full-stack application created for an academic project using Spring Boot (Java, JS, HTML and CSS).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="./images/project2.png" class="card-img-top" alt="Elevator-Simulator-img">
+            <div class="card-body">
+              <h5 class="card-title">Elevator Simulator</h5>
+              <p class="card-text">
+                Multithreaded concurrent real-time elevator control system for an academic project (Java).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="./images/project3.jpg" class="card-img-top" alt="Monopoly-Game-img">
+            <div class="card-body">
+              <h5 class="card-title">Monopoly Game</h5>
+              <p class="card-text">Academic group project that consisted of recreating 
+                Monopoly in Java using the MVC and Observer design patterns.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="./images/project4.png" class="card-img-top" alt="User-Management-api-img">
+            <div class="card-body">
+              <h5 class="card-title">User Management Rest Api</h5>
+              <p class="card-text">
+                Created a RESTful API and client side application using the MEAN stack (MongoDB, Express, Node.js, React).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <a href="https://github.com/Noahh01" class="button">View My GitHub</a>
+      </div>
+    </div>
+    <!-- Resume Section -->
+    <div id="resume-section" class="container-fluid text-light d-flex align-items-center justify-content-center section">
+      <div class="row d-flex my-5 pb-5">
+        <div class="col-12 mb-5 pb-4 text-center">
+          <img class="section_img img-fluid" src="images/resume.png" alt="resume-img">
+        </div>
+        <div class="col-12 text-center">
+          <h3 class="mb-4"><span>Current Status:</span> seeking full-time work (expected graduation May 2024)</h3>
+          <h4 class="mb-5">Click below to view or download my resume:</h4>
+          <a href="NH Resume.pdf" class="button" alt="resume-download">My Resume</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
