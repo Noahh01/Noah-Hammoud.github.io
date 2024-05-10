@@ -15,4 +15,4 @@ const updateNavLink = () => {
   });
 }
 
-window.addEventListener('scroll', updateNavLink);
+window.addEventListener("scroll", updateNavLink);
