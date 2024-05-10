@@ -6,8 +6,8 @@ const updateNavLink = () => {
   navLinks.forEach(link => {
     const id = link.getAttribute("scroll-to");
     const section = document.getElementById(id);
-      
-    if (section?.offsetTop && section?.offsetHeight && y >= section.offsetTop && y < section.offsetTop + section.offsetHeight) {
+     
+    if (section && y >= section.offsetTop && y < section.offsetTop + section.offsetHeight) {
         link.classList.add("active");
     } else {
         link.classList.remove("active");
